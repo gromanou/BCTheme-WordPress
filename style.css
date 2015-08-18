@@ -1,0 +1,441 @@
+/*
+Theme Name: BCTheme
+Theme URI: //http://barbariccode.net/
+Author: Grigoriy R
+Author URI: //http://barbariccode.net/
+Description: My first theme. Simple one column mobile responcive design.
+Tags: white, one-column
+*/
+
+
+
+/* RESET & general style */ 
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+br{
+	line-height: 16px;
+	display: block;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}h1{
+	font-size: 55px;
+}h2{
+	font-size: 38px;
+}h3{
+	font-size: 34px;
+}h4{
+	font-size: 30px;
+}h5{
+	font-size: 21px;
+}h6{
+	font-size: 18px;
+}
+div,footer,header,aside, nav , input , button , span, p , a , ul , li , img , textarea , label{
+	font-family:  'Lato', sans-serif;
+	box-sizing: border-box;
+}
+a{
+	color: #333;
+	text-shadow: 0 0 1px rgba(100,100,200,0.6);
+}
+#main-content a:hover{
+	text-decoration: underline;
+}
+.container{
+	width: 90%;
+	max-width: 960px;
+	margin:auto;
+	display: block;
+	border-left: 2px solid #e8e8e8;
+	border-right: 2px solid #e8e8e8;
+}
+
+
+/* BODY CONTENT */
+#main-content{
+	padding: 34px 21px 55px 21px; 
+	line-height: 25px;
+	font-size: 16px;
+	height: auto;
+	font-weight: normal;
+	letter-spacing: 1px;
+	overflow: hidden;
+	height: auto;
+}
+#main-title{
+	margin: 5px 0px 13px 0;
+	text-shadow:none;
+}
+#main-title h2{
+	color: #3d3d3d;
+}
+#main-conent{
+	height: auto;
+	overflow: hidden;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+#main-conent p{
+	text-indent: 30px;
+}
+#main-content ul li{
+	list-style: disc;
+	margin-left: 30px;
+}
+#main-content ol li{
+	list-style: decimal;
+	margin-left: 30px;
+}
+#main-conent em{
+	color: #0e0e0e;
+}
+img{
+	display: inline-block;
+	background: white;
+	max-width: 100%;
+	height: auto;
+	padding: 5px;
+	border: 1px solid #e0e0e0;
+	margin: 5px;
+}
+img.alignnone{
+	vertical-align: middle;
+}
+img.aligncenter{	
+	display: block;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignleft{	
+	display: inline;
+	float: left;
+}
+img.alignright{	
+	display: inline;
+	float: right;
+}
+
+.gallery img{
+	height: 100%;
+	width: auto;
+}
+
+
+
+.post{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 40px;
+	border-bottom: double 2px #ddd;
+	padding-bottom: 21px;
+}
+
+.post-title{
+	margin-bottom: 55px;
+	font-weight: 300;
+}
+.post-title > a:hover{
+	text-decoration: none;
+}
+#main-content p{
+	margin-bottom: 8px;
+}
+/* HEADER */
+#site-name{
+	font-size: 24px;
+	text-shadow:0 0 3px white;
+}
+#slogan{
+	font-size: 18px;
+	text-shadow:0 0 1px white;
+}
+#headerTop{
+	width: 100%;
+	padding-top:40px;
+	padding-bottom: 40px; 
+	display: block;
+	text-align: center;
+	background:url("images/watercolor.png") no-repeat 50% -20px #eee; 
+}
+#headerTop img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	float: center;
+	position: relative;
+}
+
+/* Pagination style */
+li.older , li.newer{
+	list-style: none!important;
+}
+.pagination {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-top: 13px;
+}
+
+
+/* HEADER */
+#site-name{
+	font-size: 24px;
+	text-shadow:0 0 3px white;
+}
+#slogan{
+	font-size: 18px;
+	text-shadow:0 0 1px white;
+}
+#headerTop{
+	width: 100%;
+	padding-top:40px;
+	padding-bottom: 40px; 
+	display: block;
+	text-align: center;
+	background:url("images/watercolor.png") no-repeat 50% -20px #eee; 
+}
+#headerTop img{
+	border: 0 solid transparent;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	float: center;
+	position: relative;
+}
+
+
+
+
+
+
+/* NAVIGATION */
+nav#mainNav{
+	width: 100%;
+	display: block;
+	background: rgb(230,230,230);
+	overflow: hidden;
+}
+nav#mainNav ul{
+	display:block;
+}
+#mainNav a{
+	color: black;
+	text-shadow:none;
+}
+
+#mainNav li  a {
+ 	padding: 18px 18px;
+}
+
+#mainNav li{
+	display: inline-block;
+	padding: 18px 18px;
+	float: left;
+	min-width: 70px;
+	text-align: center;
+	text-transform: capitalize;
+}
+#mainNav li:hover{
+	background: rgba(200,200,200,0.6);
+}
+#mainNav ul li:hover ul{
+	visibility: visible;
+}
+/*second layer of navigation */
+#mainNav ul ul{
+	visibility: hidden;
+	position: absolute;
+	width: 204px;
+	background: rgba(230,230,230,0.95);
+	padding: 0;
+	margin-top: 18px;
+	margin-left: -18px;
+	overflow: hidden;
+}
+#mainNav ul ul li{
+	float: none;
+	position: relative;
+	font-size: 14px;
+	margin-left: 0;
+	width: 100%;
+	text-align: left;
+	padding-left: 25px;
+}
+.current_page_item{
+	background: rgba(200,200,200,0.3)
+}
+#triger{
+	display: none;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer{
+	display: block;
+	width: 100%;
+	background: #d3d3d3;
+	overflow: none;
+}
+#footer-contact{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+#footer-contact ul {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#footer-contact ul li{
+	display: inline-block;
+	width: 28%;
+	padding: 34px 5px;
+	text-align: center;
+}
+#footer-contact ul li img{
+	width: 70px;
+	height: 70px; 
+	border: 1px solid transparent;
+	border-radius: 50%;
+	background: rgba(230,230,230,0.4);
+	opacity: 0.8;
+	padding: 3px;
+}
+#footer-contact ul li:hover img{
+	opacity: 0.5;
+	transition:all 1s;
+}
+
+#copy-rights{
+	display: block;
+	width: 100%;
+	float: none;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+/*
+	OTHER
+*/
+/* Style for form AddWPadon*/
+.cscfBlock{
+
+}
+
+
+/*Style for BCMagnet function that lets menu stick to the top of the screen on scroll*/
+.magnet{
+	position: fixed;
+	top: 0;
+}
+
+
+
+
+
+/* MEDIA QUERY */
+@media screen and  (max-width: 960px){
+
+	/*Mobile Menu*/
+	#triger{
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		cursor: pointer;
+		text-transform: uppercase;
+	}
+	#triger:hover{
+		background: rgba(200,200,200,0.6);
+	}
+	#mainNav ul{
+		display: none;
+		overflow: hidden;
+	}
+	#mainNav li{
+		width: 100%;
+		text-align: left;
+		padding-left: 32px;
+		font-size: 14px;
+		padding-top: 15px ;
+		padding-bottom: 15px ;
+	}
+	#mainNav li:hover{
+		background: rgba(200,200,200,0.5);
+	}
+	#mainNav li:hover ul{
+		background: none;
+	}
+	#mainNav ul ul{
+		padding-left: 32px;
+		position: relative;
+		visibility: visible;
+	}	
+	#mainNav ul ul li:hover{
+		background: rgb(230,230,230);
+	}
+
+
+	/*
+		Content 
+	*/
+
+
+
+	/*FOOTER */
+	#footer-contact ul li{
+		width: 80%;
+		padding-bottom: 0;
+	}
+	#footer-contact ul li:last-child{
+		padding-bottom: 21px;
+	}
+	#footer-contact ul li img  {
+		width: 50px;
+		height: 50px;
+	}	
+
+	
+}
+
+@media screen and (max-width: 560px){
+
+	/*
+		CONTENT
+	*/
+	.mobile-hide{
+		display: none;
+	}
+	#main-content img{
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+
+
+

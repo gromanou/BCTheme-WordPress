@@ -1,0 +1,79 @@
+
+
+
+
+/* SIMPLE RESET */
+body{
+	padding:0;
+	margin: 0;
+	left: 0;
+	top: 0;
+}			
+div{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+footer{
+	min-height: 70px;
+	width: 100%;
+	padding: 13px 0;
+	vertical-align: middle;
+	background:rgba(200,200,200,0.8);
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+body{
+	padding-bottom: 90px;
+}
+
+
+/* NAV BAR */
+#navbar-userimg{
+	margin: -8px;
+	padding-right: 13px;
+	overflow: visible;
+}
+#website-title{
+	text-shadow:0 0 4px white;
+}
+#version{
+	text-shadow:0 0 4px white;
+	color: black
+}
+#header-wrap{
+	background-image: url("../images/appartment.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:right center;
+}
+.jumbotron{
+	margin-bottom: 0;
+}
+
+
+
+
+
+/*Login Overlay */
+#fb-login-wrap{
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+
+
+/* POST  */
+
+
+.post img{
+	width: 45%;
+	height: auto;
+	margin: 5px 2%;
+	vertical-align: middle;
+}
